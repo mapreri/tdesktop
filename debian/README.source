@@ -1,0 +1,6 @@
+The upstream tarball of Telegram Desktop includes a some patches for Qt and
+other utilities that are not dfsg-compliant, I chose to repack the tarball
+removing also the bundled libraries to prevent copyright issues and be sure
+Telegram Desktop uses the system libraries.
+
+See debian/copyright for an list of removed files.
